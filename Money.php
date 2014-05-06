@@ -24,5 +24,8 @@ class Money
         return '';
     }
 
-    // ...
+    // no test for this
+    public function addVat() {
+        return $a/100 * 20; 
+    }
 }
