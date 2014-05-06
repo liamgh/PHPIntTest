@@ -18,6 +18,11 @@ class Money
     {
         return new Money(-1 * $this->amount);
     }
+    
+    // Doesn't work!
+    public function getCurrency() {
+        return '';
+    }
 
     // ...
 }
